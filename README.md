@@ -5,3 +5,5 @@ Este script puede llegar a facilitar tareas que pueden complicarse por falta de 
 
 
 Clonar repositorio: git clone https://github.com/Srglowstone/file_creator.git
+
+Server de discord: https://discord.gg/WhExkd5HFp
