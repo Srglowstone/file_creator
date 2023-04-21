@@ -1,5 +1,8 @@
+#imports
+from termcolor import colored
+
 #Banner
-print("""
+print(colored("""
  #######   ####    ####     #######             ####   ######   #######    ##     ######    #####   ######
   ##   #    ##      ##       ##   #            ##  ##   ##  ##   ##   #   ####    # ## #   ##   ##   ##  ##
   ## #      ##      ##       ## #             ##        ##  ##   ## #    ##  ##     ##     ##   ##   ##  ##
@@ -7,13 +10,12 @@ print("""
   ## #      ##      ##   #   ## #             ##        ## ##    ## #    ######     ##     ##   ##   ## ##
   ##        ##      ##  ##   ##   #            ##  ##   ##  ##   ##   #  ##  ##     ##     ##   ##   ##  ##
  ####      ####    #######  #######             ####   #### ##  #######  ##  ##    ####     #####   #### ##
-""")
-
-
+""", "red"))
 
 #Preguntamos al user el nombre del archivo y su extensión
 file_name = input("[*]Introduce el nombre del archivo: ")
 file_ext = input("[*]Introduce la extensión del archivo.\n\ntxt (A)\npy (B)\njs (C)\njava (D)\nhtml (E)\nSi desea una extensión personalizada, solo pongala.\n\nRespuesta: ")
+
 #Condicionales + crear el archivo
 if file_ext == "A":
     file = open(f"{file_name}.txt", "w")
@@ -36,6 +38,7 @@ else:
 
 #Preguntamos si desea iterar el archivo creado
 iterar = input("[*]¿Desea iterar el archivo creado?\nSi (A)\nNo (B)\nRespuesta:  ")
+
 #Creamos las condiciones
 if iterar == "A":
     texto = input("[*]Introduzca el texto que desea incluir en el archivo creado: ")
@@ -49,6 +52,7 @@ else:
 #Preguntamos al user el nombre del archivo y su extensión
 file_name = input("[*]Introduce el nombre del archivo: ")
 file_ext = input("[*]Introduce la extensión del archivo.\n\ntxt (A)\npy (B)\njs (C)\njava (D)\nhtml (E)\nSi desea una extensión personalizada, solo pongala.\n\nRespuesta: ")
+
 #Condicionales + crear el archivo
 if file_ext == "A":
     file = open(f"{file_name}.txt", "w")
@@ -71,6 +75,7 @@ else:
 
 #Preguntamos si desea iterar el archivo creado
 iterar = input("[*]¿Desea iterar el archivo creado?\nSi (A)\nNo (B)\nRespuesta:  ")
+
 #Creamos las condiciones
 if iterar == "A":
     texto = input("[*]Introduzca el texto que desea incluir en el archivo creado: ")
@@ -81,3 +86,5 @@ elif iterar == "B":
 
 else:
     print("[Error]")
+
+
