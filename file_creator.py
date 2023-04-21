@@ -1,3 +1,16 @@
+#Banner
+print("""
+ #######   ####    ####     #######             ####   ######   #######    ##     ######    #####   ######
+  ##   #    ##      ##       ##   #            ##  ##   ##  ##   ##   #   ####    # ## #   ##   ##   ##  ##
+  ## #      ##      ##       ## #             ##        ##  ##   ## #    ##  ##     ##     ##   ##   ##  ##
+  ####      ##      ##       ####             ##        #####    ####    ##  ##     ##     ##   ##   #####
+  ## #      ##      ##   #   ## #             ##        ## ##    ## #    ######     ##     ##   ##   ## ##
+  ##        ##      ##  ##   ##   #            ##  ##   ##  ##   ##   #  ##  ##     ##     ##   ##   ##  ##
+ ####      ####    #######  #######             ####   #### ##  #######  ##  ##    ####     #####   #### ##
+""")
+
+
+
 #Preguntamos al user el nombre del archivo y su extensión
 file_name = input("[*]Introduce el nombre del archivo: ")
 file_ext = input("[*]Introduce la extensión del archivo.\n\ntxt (A)\npy (B)\njs (C)\njava (D)\nhtml (E)\nSi desea una extensión personalizada, solo pongala.\n\nRespuesta: ")
