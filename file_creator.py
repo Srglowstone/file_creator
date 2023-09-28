@@ -26,7 +26,7 @@ elif file_ext == "C":
     file = open(f"{file_name}.js", "w")
 
 elif file_ext == "D":
-    file = open(f"{file_name}.java", "w")
+    file = open(f"{file_name}.jar", "w")
 
 elif file_ext == "E":
     file = open(f"{file_name}.html", "w")
